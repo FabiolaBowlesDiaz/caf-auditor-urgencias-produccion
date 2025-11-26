@@ -1,0 +1,14 @@
+[project]
+name = "auditoria-urgencia"
+version = "1.0.0"
+description = "Sistema de auditoría de médicos de urgencias según guías internacionales"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "litellm>=1.59.7",
+    "pandas>=2.3.2",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+    "pymysql>=1.1.0",
+]

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+env/
+venv/
+ENV/
+
+# Configuración sensible
+.env
+
+# Outputs (contienen datos de pacientes)
+output/*.jsonl
+output/*.html
+output/*.json
+!output/.gitkeep
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporales
+*.tmp
+*.bak
+*.backup
+
+# Archivos de diagnóstico (contienen datos de pacientes)
+historial_raw_*.txt
